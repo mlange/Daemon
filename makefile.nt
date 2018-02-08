@@ -1,0 +1,10 @@
+!include $(MOCADIR)\makefiles\Config.mk
+
+TARGET=main
+TARGETTYPE=exe
+
+OFILES=main.obj
+
+EXTRALIBS=MOCAmxml.lib
+
+!include $(MOCADIR)\makefiles\ntstd.mk
